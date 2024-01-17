@@ -1,0 +1,410 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #F0F0F0; 
+    padding: 10px;
+	font-size: 12px;
+	color: #353535;
+}
+
+@media only screen and (max-width: 600px) {
+    .top-section {
+        padding: 10px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 150px; 
+    }
+
+    .search-bar input {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .icons {
+        margin-left: 0;
+        margin-top: 10px; 
+    }
+
+    .icon {
+        margin-left: 10px;
+    }
+
+    .menu li {
+        margin: 10px;
+    }
+
+    .service-button {
+        width: 100%; 
+    }
+
+    .calendari-section {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .two-column-section {
+        flex-direction: column;
+    }
+
+    .serveis-section,
+    .calendari-section {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer-column h3 {
+        height: auto;
+    }
+
+    .footer-column img {
+        width: 25px;
+        margin-right: 5px;
+    }
+}
+
+.top-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+	width: 200px;
+    margin-right: 10px;
+    border: 1px solid #353535; 
+    border-radius: 20px;
+    outline: none;
+    background-color: #F0F0F0;
+}
+
+.icons {
+    display: flex;
+	margin-left: 30px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    border: 1px solid #353535;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    width: 25px;
+    height: auto;
+}
+
+.underheader-content {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.menu-section {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menu {
+    border-bottom: 1px solid #353535;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    width: 100%; 
+}
+
+.menu li {
+	width: 100%;
+	text-align: center;
+	margin: 20px;
+}
+
+.menu li:last-child {
+    margin-right: auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+
+.menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.menu .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu .dropdown-content a {
+    color: #333;
+    margin: 20px;
+    padding: 10px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #AFFF00;
+    border-radius: 100px;
+}
+
+.menu .dropdown-content a:hover {
+    background-color: #AFFF00;
+    border-radius: 100px;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 24px; 
+	margin-left: 20px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.title-section {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.content-section {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-container {
+    flex: 1;
+    padding: 0 20px; 
+	margin-left: 50px;
+}
+
+.text-container p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    text-align: justify;
+	width: 70%;
+	margin-left: 50px;
+}
+
+h2 {
+	margin-left: 50px;
+}
+
+.avantatges {
+    margin: 40px 0;
+}
+
+.avantatges-title {
+    text-align: left; 
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.avantatges-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px; 
+}
+
+.avantatges-item {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.avantatges-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    height: 250px;
+    width: 30%;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+.avantatges-subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration-form {
+    width: 50%;
+    background-color: #353535;
+    border-radius: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    color: #fff;
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+.registration-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.registration-form input,
+.registration-form select {
+    width: 100%;
+
+
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #353535;
+}
+
+.registration-form input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.registration-form button {
+    background-color: #AFFF00;
+    color: #353535;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.registration-form button:hover {
+    background-color: #AFF000;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+
+.footer-column .marge li {
+    margin-bottom: 20px; 
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-column img {
+    width: 30px; 
+    height: auto;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.footer-column {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: #353535;
+    color: #fff;
+    padding: 20px;
+    margin: 100px auto 0; 
+    width: 80%;
+    border-radius: 50px;
+}
